@@ -4,7 +4,7 @@ import logo from "../assets/logo.jpg";
 const NavBar = () => {
   return (
     <HStack>
-      <Image boxSize={"60px"} src={logo}></Image>
+      <Image borderRadius="full" boxSize="60px" alt="log" src={logo}></Image>
       <Text>nav bar</Text>
     </HStack>
   );
